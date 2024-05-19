@@ -601,3 +601,13 @@ h3 {
 	font-size: 10px;
 }
 }
+.hoverable-image {
+    width: 200px; /* Adjust this value to your needs */
+    height: auto;
+	margin: 40px 5px 10px 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hoverable-image:hover {
+    transform: scale(1.1);
+}
