@@ -602,7 +602,7 @@ h3 {
 }
 }
 .hoverable-image {
-    width: 200px;
+    width: 200px; /* Adjust this value to your needs */
     height: auto;
 	margin: 40px 5px 10px 0px;
     transition: transform 0.3s ease-in-out;
@@ -611,13 +611,9 @@ h3 {
 .hoverable-image:hover {
     transform: scale(1.1);
 }
-.contact .container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.image-section{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.contact  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value to your needs */
 }
